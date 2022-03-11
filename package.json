@@ -1,6 +1,6 @@
 {
   "name": "@markdevilleres/deep-copy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Deep copy any variables in JavaScript.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -9,8 +9,22 @@
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markdevilleres/deep-copy.git"
+  },
+  "keywords": [
+    "Clone",
+    "Deep Copy",
+    "JavaScript",
+    "TypeScript"
+  ],
   "author": "Mark Devilleres",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markdevilleres/deep-copy/issues"
+  },
+  "homepage": "https://github.com/markdevilleres/deep-copy#readme",
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.3.1",
     "rollup": "^2.70.0",
